@@ -25,6 +25,7 @@ int main()
    //nth variable stores what term the user would like to find in the arithmetic series
    //cd stores the common difference int the number series
    //result stores the answer (nth term)
+   //askMore defines if the user can continue asking for another nth term in the series
    printf("\n\t******ARITHMETIC SERIES MADE EASY!!******\n\nInput three numbers that follow a certain arithmetic sequence. \n");
 
      cd=userSequence(numsArray);//this variable stores the value from the function checkValidity() that is called inside the function userSequence.
